@@ -1,0 +1,402 @@
+/*DM Sans css start*/
+@font-face {
+    font-family: 'dm_sansbold';
+    src: url('../fonts/DM_Sans/dmsans-bold-webfont.woff2') format('woff2'),
+    url('../fonts/DM_Sans/dmsans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'dm_sansbold_italic';
+    src: url('../fonts/DM_Sans/dmsans-bolditalic-webfont.woff2') format('woff2'),
+    url('../fonts/DM_Sans/dmsans-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'dm_sansitalic';
+    src: url('../fonts/DM_Sans/dmsans-italic-webfont.woff2') format('woff2'),
+    url('../fonts/DM_Sans/dmsans-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'dm_sansmedium';
+    src: url('../fonts/DM_Sans/dmsans-medium-webfont.woff2') format('woff2'),
+    url('../fonts/DM_Sans/dmsans-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'dm_sansmedium_italic';
+    src: url('../fonts/DM_Sans/dmsans-mediumitalic-webfont.woff2') format('woff2'),
+    url('../fonts/DM_Sans/dmsans-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'dm_sansregular';
+    src: url('../fonts/DM_Sans/dmsans-regular-webfont.woff2') format('woff2'),
+    url('../fonts/DM_Sans/dmsans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*DM Sans css end*/
+
+/*aquiline font start*/
+@font-face {
+    font-family: 'aquiline_bookregular';
+    src: url('../fonts/Aquiline/aqlswfte-webfont.woff2') format('woff2'),
+    url('../fonts/Aquiline/aqlswfte-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'aquiline_bookbold';
+    src: url('../fonts/Aquiline/aquiline_book_bold-webfont.woff2') format('woff2'),
+    url('../fonts/Aquiline/aquiline_book_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*aquiline font end*/
+body{
+    font-family: 'dm_sansregular', sans-serif!important;
+    color:#4f4f4f;
+    font-size:16px;
+    font-weight:400;
+}
+button{
+    font-family: 'dm_sansregular', sans-serif!important;
+    border-radius: 0.5rem!important;
+}
+button.btn-lg{
+    padding: .5rem 2.5rem!important;
+    font-size: 1.5rem!important;
+}
+.btn_large{
+    font-size: 1.75rem!important;
+}
+.btn_blue{
+   background-color: #2e77bf!important;
+   border-color: #2e77bf!important;
+   transition: all 0.3s;
+   position: relative;
+   z-index: 1;
+}
+.btn_teal{
+   background-color: #009e80!important;
+   border-color: #009e80!important;
+   transition: all 0.3s;
+   position: relative;
+   z-index: 1;
+}
+.btn_light_teal{
+   background-color: #009e80!important;
+   border-color: #009e80!important;
+   transition: all 0.3s;
+   position: relative;
+   z-index: 1;
+}
+.btn_blue:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #05498c;
+  transition: all 0.3s;
+  z-index: -1;
+}
+.btn_teal:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #026350;
+  transition: all 0.3s;
+  z-index: -1;
+}
+.btn_light_teal:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #007d66;
+  transition: all 0.3s;
+  z-index: -1;
+}
+.btn_blue:hover:before, .btn_teal:hover:before, .btn_light_teal:hover:before {
+  width: 100%;
+  border-radius: 0.5rem!important;
+}
+.aquiline_font{
+    font-family: 'aquiline_bookbold', sans-serif;
+}
+
+.help_text{
+    font-family: 'dm_sansregular', sans-serif!important;
+}
+.help_text span{
+    font-family: 'dm_sansmedium', sans-serif!important;
+}
+.font-semi-bold{
+    font-family: 'dm_sansmedium', sans-serif!important;
+    font-size: 500!important;
+}
+p{
+    color:#4f4f4f;
+}
+.gray{
+    color: gray;
+}
+.text-gray{
+    color: #545454;
+}
+
+.font_1rem{
+    font-size: 1rem;
+}
+.font_1_15rem{
+    font-size: 1.15rem;
+}
+.font_1_2rem{
+    font-size: 1.2rem;
+}
+.font_1_25rem{
+    font-size: 1.25rem;
+}
+.font_1_5rem{
+    font-size: 1.5rem;
+}
+.font_2rem{
+    font-size: 2rem;
+}
+.lh-2{
+    line-height: 2;
+}
+.lh-1-5{
+    line-height: 1.5;
+}
+.bg_blue{
+    background-color: #437fec;
+}
+.bg_lightgreen{
+    background-color: #b8e4db;
+}
+.p-0-75{
+    padding:0.75rem;
+}
+.b_r_o-5{
+    border-radius: 0.5rem;
+}
+.font-semi-bold{
+    font-weight: 500;
+}
+.text-theme-teal{
+    color:#009e80;
+}
+.banner_bg{
+    background-image: url(../img/Banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    min-height: 68vh;
+}
+.banner_heading{    
+    font-family: 'aquiline_bookbold';
+    font-size: 5rem;
+    color: #5fefc0;
+    line-height: 0.8;
+}
+.help_header{
+    line-height: 0.8;
+}
+.help_footer{
+    font-size: 1.5rem;
+    line-height: 0.8;
+    letter-spacing: 1px;
+}
+.invest_span{
+    font-size: 0.8rem;
+}
+
+/*about section*/
+.about_bg{
+    background-image: url(../img/Image1.png);
+    background-repeat: no-repeat;
+    background-position: 118%;
+}
+
+/*partner section*/
+.partner_bg{
+    background-image: url(../img/BG1.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.img_mt_38{
+    margin-top: -38px;
+}
+/*benefits section*/
+.benefits_bg{
+    background-image: url(../img/BG2.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+/*receive infography section*/
+.receive_l img{
+    right:-40px;
+    position:absolute;
+}
+.receive_l p{
+    position:absolute;
+    font-size:1.2rem;
+    line-height:1.3;
+    font-weight:500;
+}
+.receive_l .item_1{
+    top: -1%;
+    right: 8%;
+}
+.receive_l .item_2{
+    top: 38%;
+    right: 28%;
+}
+.receive_l .item_3{
+    top: 70%;
+    right: 26%;
+}
+.receive_r img{
+    left:-40px;
+    position:absolute;
+}
+.receive_r p{
+    position:absolute;
+    font-size:1.2rem;
+    line-height:1.3;
+    font-weight:500;
+}
+.receive_r .item_1{
+    top: 0%;
+    left: 8%;
+}
+.receive_r .item_2{
+    top: 32%;
+    left: 28%;
+}
+.receive_r .item_3{
+    top: 80%;
+    left: 26%;
+}
+
+.invest_left{
+    padding-left:10vw;
+    position: relative;
+    top: -20px;
+    position:relative;
+    background-color: rgb(67 127 236 / 91%);
+}
+.invest_left:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -75px;
+    z-index: 1;
+    border-bottom: 174px solid rgb(67 127 236 / 91%);
+    border-left: 0px solid #ffffff00;
+    border-right: 75px solid #ffffff00;
+}
+.invest_right{
+    position:relative;
+    background-color: #b8e4db;
+}
+.invest_right:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    left: -75px;
+    border-top: 174px solid #b8e4db;
+    border-left: 75px solid #ffffff00;
+    border-right: 0px solid transparent;
+}
+
+/*responsive*/
+
+@media (min-width: 1450px) {
+    .about_bg {
+        background-position: 100%;
+    }
+    .banner_bg {
+        padding-top: 4%;
+    }
+}
+@media (max-width: 1300px) {
+    .about_bg {
+        background-position: 185%;
+        padding-top:0!important;
+        margin-top:0!important;
+    }
+    .invest_left .display-4, .invest_right .display-4 {
+        font-size:2rem;
+    }
+    .invest_left:after {
+        border-bottom: 148px solid rgb(67 127 236 / 91%);
+    }
+    .invest_right:before {
+        border-top: 148px solid #b8e4db
+    }
+}
+@media (max-width: 991px) {
+    .invest_left:after, .invest_right:before{
+        display:none;
+    }
+    .about_bg{
+        background-image: none;
+    }
+    .invest_left {
+        padding-left: 1.5rem;
+        top: 0px;
+    }
+    .receive_l img, .receive_r img {
+        height: 180px;
+    }
+    .receive_l p, .receive_r p {
+        font-size: 1rem;
+    }
+
+    button.btn-lg{
+        padding: .5rem 1rem!important;
+        font-size: 1.2rem!important;
+    }
+    .banner_heading{
+        font-size: 4rem;
+    }
+}
+@media (max-width: 767px) {
+    .banner_heading{
+        font-size: 3rem;
+    }
+    .receive_l p{
+        position:static;
+        text-align:left;
+    }
+    .receive_r p{
+        position:static;
+        text-align:left;
+    }
+    .receive_l p .circle_img, .receive_r p .circle_img {
+        display: inline-block!important;
+        width:20px;
+        height:20px;
+        margin-right:10px;
+        position: static;
+    }
+}
