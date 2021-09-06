@@ -200,6 +200,9 @@ p{
 .text-theme-teal{
     color:#009e80;
 }
+.logo_width{
+	width: 125px;
+}
 .banner_bg{
     background-image: url(../img/Banner.png);
     background-repeat: no-repeat;
